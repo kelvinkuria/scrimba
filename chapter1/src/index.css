@@ -66,3 +66,69 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #282c34;
+  color:white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width:100%;
+
+}
+.nav-list{
+  list-style:none;
+  display:flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+ 
+}
+.nav-list-item{
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1.1 rem;
+  transition: color 0.2s;
+}
+.nav-list-item:hover{
+  color: #61dafb;
+}
+.logo{
+  width:55px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.logo:hover{
+  transform: rotate(20deg);
+}
+
+.main-content{
+ padding: 2rem;
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+.title{
+  color: #282c34;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 0.5rem;
+}
+.reasons-list{
+  padding-left: 1.5rem;
+
+}
+
+.reason-item{
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+}
+.footer{
+  text-align: center;
+  padding: 1rem;
+  background-color: #282c34;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  color: white;
+}
